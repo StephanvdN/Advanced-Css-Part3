@@ -1,0 +1,79 @@
+body {
+  background-color: #c3cfe2;
+}
+
+.socialmedia-bar {
+  display: block;
+}
+
+.socialmedia-bar .blog {
+  top: 800px;
+  background-color: #e17b77;
+}
+
+.socialmedia-bar .twitter {
+  top: 856px;
+  background-color: #00aced;
+}
+
+.socialmedia-bar .linkedin {
+  top: 912px;
+  background-color: #007bb6;
+}
+
+.socialmedia-bar .facebook {
+  top: 968px;
+  background-color: #3b5998;
+}
+
+.socialmedia-bar .github {
+  top: 1024px;
+  background-color: #333;
+}
+
+.media {
+  background: #9e3c3c;
+  text-transform: uppercase;
+  padding: 4px;
+  position: fixed;
+  width: 250px;
+  right: -200px;
+  z-index: 1000;
+  font: normal normal 10px Arial;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.media .fa-brands {
+  font-size: 25px;
+  color: white;
+  padding: 10px 10px;
+  width: 40px;
+  margin-left: 5px;
+}
+
+.media .fa-solid {
+  font-size: 25px;
+  color: white;
+  padding: 10px 10px;
+  width: 40px;
+  margin-left: 5px;
+}
+
+.media .fa-facebook-f {
+  margin-left: 8px;
+}
+
+.media a {
+  color: white;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  text-align: center;
+  line-height: 40px;
+}
+
+.media:hover {
+  right: 0;
+}
+/*# sourceMappingURL=styles.css.map */
